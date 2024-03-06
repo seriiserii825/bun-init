@@ -1,0 +1,17 @@
+{
+  "name": "bun-init",
+  "module": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run index.ts",
+    "watch": "bun --watch run index.ts",
+    "clean": "rm -rf dist && echo 'Done.'"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.0.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
